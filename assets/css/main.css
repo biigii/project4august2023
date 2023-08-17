@@ -1,29 +1,30 @@
+html {
+  font-size: 8px
+}
+
 body {
   background-color: #f99;
 }
 
-h1 {
-  /* color: blue; */
-  /* hexadecimal values */
+/* lengths */
+/* absolute and relative lengths */
 
-  /* 0-9 a -f */
-  /* Red Green Blue */
-  /* color: #000000; */
-  /* color: #ffff00; */
-  /* color: #0000ff; */
-  /* background-color: #ff0000; */
-  /* 0 - 1 */
-  /* opacity: 0.5; */
-  /* RGB */
-  /* color: red;
-  color: #ff0000;
-  color: rgb(255,0,0); */
-  /* color: #00ff00;
-  color: rgb(120, 200, 45);
-  color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255); */
-  /* color: rgba(120, 130, 23, 0.75) */
-  /* HSL = Hue Saturation and Lightness */
-  /* color: hsl(120, 100%, 50%); */
-  /* color: hsla(200, 80%, 50%, 0.5); */
+h1 {
+  /* pixel is an example of absolute length */
+  /* 1 pixel = 1/96 of an inch */
+  /* font-size: 96px; */
+  /* font-size: 48px; */
+
+  /*  relative length */
+  /* % em rem  */
+  /* font-size: 96px; */
+
+  /*  the default font-size of <html> is 16px */
+  /*  so when i say 2em that means 2 x 16px */
+  /*  3em = 3 x 16px */
+  font-size: 4em
+}
+
+p {
+  font-size: 2em; /*  = 32px*/
 }
