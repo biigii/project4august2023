@@ -1,3 +1,121 @@
 h1 {
-  color: green;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* id class type */
+
+/* 0 1 2 */
+nav.navigation a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color:  green;
+  font-size: 30px;
+}
+
+/* 0 0 3 */
+/* footer a  */
+footer nav a {
+  display: block;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.home h1 {
+  color: blue;
+}
+
+.home main {
+  background-color: purple;
+}
+
+/* .about h1 {
+  color: pink
+}
+
+.contact h1 {
+  color: pink;
+} */
+
+.about h1,
+.contact h1 {
+  color: pink;
+  text-decoration: underline;
+}
+
+section.content {
+  background-color: lightgray;
+}
+
+section.content h3 {
+  text-align: center;
+  font-size: 24px;
+  color: yellow;
+}
+
+section.content p {
+  background-color: black;
+  color: white;
+}
+
+section.content button {
+  background-color: green;
+}
+
+section.blog {
+  background-color: lightblue;
+}
+
+/* find me a section which has the class of blog and then inside it find any element which has class of dislike */
+/* section.blog button.dislike */
+/* 0 2 1 */
+section.blog .dislike {
+  background-color: red;
+}
+
+/* 0 3 3 */
+/* body.about section.blog button.dislike {
+  background-color: purple
+} */
+
+.news {
+  background-color: lightsalmon;
+}
+
+.news__heading {
+  text-align: center;
+  font-size: 34px;
+  text-transform: capitalize;
+}
+
+.news__photo {
+  /* styling for photo goes here */
+}
+
+.news__content {
+  text-decoration: underline;
+}
+
+.blog__button {
+  text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+/* Block Element & Modifier */
+.blog__button--danger {
+  background-color: red;
+}
+
+.blog__button--success {
+  background-color: green;
+}
+
+.blog__button--info {
+  background-color: lightblue;
+}
+
+.blog__button--warning {
+  background-color: orange;
 }
